@@ -39,7 +39,7 @@ function decode(strToDecode)
 </form>
 
 <script language="Javascript">
-    document.getElementById('container_1').src = decode(gup('url'));
+    document.getElementById('container_1').innerHTML = decode(gup('url'));
     document.getElementById('assignmentId').value = gup('assignmentId');
 
 
